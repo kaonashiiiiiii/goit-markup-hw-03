@@ -162,6 +162,8 @@ button {
 }
 .footer {
     background: #2E2F42;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .studioend {
     color:#f4f4fd;
@@ -204,7 +206,7 @@ button {
     margin-left: -20px;
     margin-top: -20px;
 }
-.footer-text {
+.text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -237,8 +239,7 @@ button {
     margin-left: -24px;
 }
 .portfolio-images {
-    width: 320px;
-    height: 420px;
+    flex-basis: calc(100% / 3 - 24px);
     background: #FFFFFF;
     border: 1px solid #E7E9FC;
     margin: 24px 24px 24px 0;
@@ -261,6 +262,7 @@ button {
 .page-header {
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #E7E9FC;
 }
 .flex {
     display: flex;
@@ -304,8 +306,7 @@ button {
     color: #434455;
 }
 .footer-container {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    
 }
 .portfolio-main {
     padding-top: 96px;
@@ -325,4 +326,18 @@ button {
     text-transform: capitalize;
     color: #2E2F42;
     margin-bottom: 72px;
+}
+.nav-color {
+    color: #2E2F42;
+}
+.advantages-list {
+    width: 264px;
+}
+.footer-text {
+    width: 264px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
 }
